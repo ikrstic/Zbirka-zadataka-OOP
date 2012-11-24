@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nasleđivanje-Polimorfizam"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nasleđivanje-Polimorfizam-Zaposleni", "Nasleđivanje-Polimorfizam-Zaposleni\Nasleđivanje-Polimorfizam-Zaposleni.csproj", "{FC7398BE-F27A-42E2-B599-90C10213EA9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nasleđivanje-Polimorfizam-Osoba", "Nasleđivanje-Polimorfizam-Osoba\Nasleđivanje-Polimorfizam-Osoba.csproj", "{7B87D5D7-7AB4-4AEF-9126-81A1B8A0D465}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{FC7398BE-F27A-42E2-B599-90C10213EA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC7398BE-F27A-42E2-B599-90C10213EA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC7398BE-F27A-42E2-B599-90C10213EA9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B87D5D7-7AB4-4AEF-9126-81A1B8A0D465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B87D5D7-7AB4-4AEF-9126-81A1B8A0D465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B87D5D7-7AB4-4AEF-9126-81A1B8A0D465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B87D5D7-7AB4-4AEF-9126-81A1B8A0D465}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
