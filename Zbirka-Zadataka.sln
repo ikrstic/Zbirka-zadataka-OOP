@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zbirka-Zadataka", "Zbirka-Zadataka\Zbirka-Zadataka.csproj", "{3FC3DA6F-980B-43A5-9553-5DF1CFC851BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadatak-1-Kupac", "Zbirka-Zadataka\Zadatak-1-Kupac.csproj", "{3FC3DA6F-980B-43A5-9553-5DF1CFC851BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nasleđivanje-Polimorfizam", "Nasleđivanje-Polimorfizam\Nasleđivanje-Polimorfizam.csproj", "{B16B4A5C-C01A-4C75-A16B-6314E265A2DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nasleđivanje-Polimorfizam-Zaposleni", "Nasleđivanje-Polimorfizam-Zaposleni\Nasleđivanje-Polimorfizam-Zaposleni.csproj", "{FC7398BE-F27A-42E2-B599-90C10213EA9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +17,14 @@ Global
 		{3FC3DA6F-980B-43A5-9553-5DF1CFC851BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FC3DA6F-980B-43A5-9553-5DF1CFC851BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FC3DA6F-980B-43A5-9553-5DF1CFC851BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B16B4A5C-C01A-4C75-A16B-6314E265A2DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B16B4A5C-C01A-4C75-A16B-6314E265A2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B16B4A5C-C01A-4C75-A16B-6314E265A2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B16B4A5C-C01A-4C75-A16B-6314E265A2DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC7398BE-F27A-42E2-B599-90C10213EA9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7398BE-F27A-42E2-B599-90C10213EA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7398BE-F27A-42E2-B599-90C10213EA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7398BE-F27A-42E2-B599-90C10213EA9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
