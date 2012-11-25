@@ -7,7 +7,7 @@
     <ProjectGuid>{FC7398BE-F27A-42E2-B599-90C10213EA9D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Nasleđivanje_Polimorfizam_Zaposleni</RootNamespace>
+    <RootNamespace>Nasledivanje_Polimorfizam_Zaposleni</RootNamespace>
     <AssemblyName>Nasleđivanje-Polimorfizam-Zaposleni</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

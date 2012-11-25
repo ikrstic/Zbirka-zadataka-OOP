@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7B87D5D7-7AB4-4AEF-9126-81A1B8A0D465}</ProjectGuid>
+    <ProjectGuid>{ED34B061-A687-4354-8EEE-E02A9401C2E3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Nasledivanje_Polimorfizam_Osoba</RootNamespace>
-    <AssemblyName>Nasleđivanje-Polimorfizam-Osoba</AssemblyName>
+    <RootNamespace>Nasledjivanje_Polimorfizam_Zadatak5Aparat</RootNamespace>
+    <AssemblyName>Nasledjivanje-Polimorfizam-Zadatak5Aparat</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
