@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadatak-1-Kupac", "Zbirka-Zadataka\Zadatak-1-Kupac.csproj", "{3FC3DA6F-980B-43A5-9553-5DF1CFC851BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nasledivanje-Polimorfizam", "Nasleđivanje-Polimorfizam\Nasledivanje-Polimorfizam.csproj", "{B16B4A5C-C01A-4C75-A16B-6314E265A2DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nasledivanje-Polimorfizam", "Nasledjivanje-Polimorfizam\Nasledivanje-Polimorfizam.csproj", "{B16B4A5C-C01A-4C75-A16B-6314E265A2DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nasledivanje-Polimorfizam-Zaposleni", "Nasleđivanje-Polimorfizam-Zaposleni\Nasledivanje-Polimorfizam-Zaposleni.csproj", "{FC7398BE-F27A-42E2-B599-90C10213EA9D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nasledivanje-Polimorfizam-Zaposleni", "Nasledjivanje-Polimorfizam-Zaposleni\Nasledivanje-Polimorfizam-Zaposleni.csproj", "{FC7398BE-F27A-42E2-B599-90C10213EA9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nasledivanje-Polimorfizam-Osoba", "Nasleđivanje-Polimorfizam-Osoba\Nasledivanje-Polimorfizam-Osoba.csproj", "{7B87D5D7-7AB4-4AEF-9126-81A1B8A0D465}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nasledivanje-Polimorfizam-Osoba", "Nasledjivanje-Polimorfizam-Osoba\Nasledivanje-Polimorfizam-Osoba.csproj", "{7B87D5D7-7AB4-4AEF-9126-81A1B8A0D465}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nasledivanje-Polimorfizam Zadatak4DDBB", "Nasleđivanje-Polimorfizam Zadatak4DDBB\Nasledivanje-Polimorfizam Zadatak4DDBB.csproj", "{9DF4AD2C-0A2E-4496-B03D-F0B706A88B26}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nasledivanje-Polimorfizam Zadatak4DDBB", "Nasledjivanje-Polimorfizam Zadatak4DDBB\Nasledivanje-Polimorfizam Zadatak4DDBB.csproj", "{9DF4AD2C-0A2E-4496-B03D-F0B706A88B26}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nasledjivanje-Polimorfizam-Zadatak5Aparat", "Nasledjivanje-Polimorfizam-Zadatak5Aparat\Nasledjivanje-Polimorfizam-Zadatak5Aparat.csproj", "{ED34B061-A687-4354-8EEE-E02A9401C2E3}"
 EndProject
