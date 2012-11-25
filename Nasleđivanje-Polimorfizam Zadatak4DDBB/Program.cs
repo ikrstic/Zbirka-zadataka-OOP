@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nasleđivanje_Polimorfizam_Zadatak4DDBB
+namespace Nasledivanje_Polimorfizam_Zadatak4DDBB
 {
     public class A
     {
@@ -37,7 +37,7 @@ namespace Nasleđivanje_Polimorfizam_Zadatak4DDBB
             D d = new D();
             C c = d;
             B b = c;
-            A a = d;
+            A a = b;
 
             d.Ispis();
             c.Ispis();

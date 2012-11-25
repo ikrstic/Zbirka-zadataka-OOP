@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nasleđivanje_Polimorfizam
+namespace Nasledivanje_Polimorfizam
 {
     class Racun
     {

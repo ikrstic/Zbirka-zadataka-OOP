@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nasleđivanje_Polimorfizam_Zaposleni
+namespace Nasledivanje_Polimorfizam_Zaposleni
 {
     public class Zaposleni
     {
