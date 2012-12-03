@@ -19,7 +19,7 @@ namespace Nasledjivanje_Polimorfizam_ZdravstveniRadnik
             Prezime=prezime;
         }
     
-        public virtual double IzracunajPlatu()
+        public virtual double IzracunajPlatu(int brojSati)
         {
             return Plata=50*brojSati;   
         }
@@ -27,6 +27,7 @@ namespace Nasledjivanje_Polimorfizam_ZdravstveniRadnik
         public virtual void IspisiPodatke()
         {
             Console.WriteLine("Zaposleni: " + Ime + " " + Prezime);
+            Console.WriteLine("Plata: " + Plata);
         }
     }
 
@@ -37,9 +38,10 @@ namespace Nasledjivanje_Polimorfizam_ZdravstveniRadnik
         {
             Ime = ime;
             Prezime = prezime;
+            //if (brojSati >= 0) brojSati = brojsati;
         }
 
-        public override double IzracunajPlatu()
+        public override double IzracunajPlatu(int brojSati)
         {
             return Plata=100*brojSati;
         }
@@ -48,16 +50,16 @@ namespace Nasledjivanje_Polimorfizam_ZdravstveniRadnik
     class Doktor : ZdravstveniRadnik
     {
         //private int brojSati;
-        private int brojOperacija { get; set; }
+        public int brojOperacija = 0;
 
         public Doktor(string ime, string prezime, int brojoperacija):base(ime,prezime)
         {
             Ime = ime;
             Prezime = prezime;
-            brojOperacija = 0;
-            if (brojOperacija > 0) brojOperacija = brojoperacija;
+            //if (brojSati >= 0) brojSati=brojsati;
+            if (brojOperacija >= 0) brojOperacija = brojoperacija;
         }
-        public override double IzracunajPlatu()
+        public override double IzracunajPlatu(int brojSati)
         {
             return Plata=1000*brojSati;
         }
@@ -65,6 +67,7 @@ namespace Nasledjivanje_Polimorfizam_ZdravstveniRadnik
         public override void IspisiPodatke()
         {
             Console.WriteLine("Zaposleni: " + Ime + " " + Prezime + " " + brojOperacija + ". operacija");
+            Console.WriteLine("Plata: " + Plata);
         }
     }
     
@@ -74,8 +77,11 @@ namespace Nasledjivanje_Polimorfizam_ZdravstveniRadnik
         {
             MedicinskaSestra sestra1 = new MedicinskaSestra("Milica", "Milić");
             sestra1.IspisiPodatke();
+            sestra1.IzracunajPlatu(200);
+
             Doktor doktor1 = new Doktor("Petar", "Petrović", 20);
             doktor1.IspisiPodatke();
+            doktor1.IzracunajPlatu(250);
             Console.ReadKey();
         }
     }
